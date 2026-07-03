@@ -10,10 +10,8 @@
 В Claude Code / Cursor в рабочей папке:
 
 ```
-install skill from https://github.com/<org-or-account>/empathy-onboarding
+install skill from https://github.com/sergevalovoi/empathy-onboarding
 ```
-
-*(ссылка станет рабочей после публикации репозитория — на 07.2026 файлы существуют только локально)*
 
 ## Требования
 
