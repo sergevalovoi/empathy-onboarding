@@ -8,11 +8,13 @@
 
 ## Установка
 
-В Claude Code / Cursor в рабочей папке:
+**Рекомендуемый способ** — не ставить скилл отдельно, а склонировать [empathy-workspace](https://github.com/sergevalovoi/empathy-workspace): скилл там уже встроен в `.claude/skills/`, плюс есть `CLAUDE.md` со Startup-секцией, которая подхватывает `COMPANY.md`/`AGENT-PERSONALITY.md` автоматически при каждом следующем запуске Claude Code. Без такого `CLAUDE.md` эти файлы сгенерируются, но не будут читаться сами по себе в новых сессиях.
 
+Альтернатива — поставить только скилл в уже существующую рабочую папку:
 ```
 install skill from https://github.com/sergevalovoi/empathy-onboarding
 ```
+В этом случае нужно самому добавить в свой `CLAUDE.md` Startup-секцию, читающую `COMPANY.md` и `AGENT-PERSONALITY.md`.
 
 ## Требования
 
